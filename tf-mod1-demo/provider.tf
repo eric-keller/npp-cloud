@@ -1,7 +1,7 @@
 provider "google" {
-  credentials = file("../orbital-linker-398719-c59c16fa0cce.json")
+  credentials = file("FILL-IN.json")
 
-  project = "orbital-linker-398719"
+  project = "FILL-IN"
   region  = "us-central1"  // default
   zone    = "us-central1-c"  // default
 }
