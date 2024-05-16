@@ -2,7 +2,7 @@
 
 Creates a VPC, subnet, firewall rules, and a VM.  
 
-![Diagram](mod2-setup.png)
+![Diagram](mod2-demo1.png)
 
 
 ## Modify
