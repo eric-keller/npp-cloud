@@ -2,6 +2,9 @@
 
 Creates a VPC, subnet, firewall rules, and a VM.  
 
+![Diagram](mod2-setup.png)
+
+
 ## Modify
 In provider.tf, change the two locations which say FILL-IN.  The first points to the json file that was downloaded when creating a service account.  The second is the project name.
 
