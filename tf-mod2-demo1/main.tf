@@ -78,7 +78,7 @@ resource "google_compute_instance" "tf-mod2-demo1-vm1" {
     }
   } 
   metadata = {
-    startup-script = "sudo apt update; sudo apt install netcat-traditional ncat;"
+    startup-script = "sudo apt update; sudo apt -y install netcat-traditional ncat;"
   }
 
 }
