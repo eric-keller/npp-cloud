@@ -23,6 +23,8 @@ resource "google_compute_instance" "mod1-tf-vm1" {
   boot_disk {
     initialize_params {
       image = "debian-12-bookworm-v20240312"
+      size = 30
+      type = "pd-standard"
     }
   } 
   metadata = {
