@@ -7,7 +7,7 @@ Note: This is still in development, so has only been lightly tested for module 2
 # To run
 
 ```
-python3 <module> <json_file>
+python3 cloud-extract.py <module> <json_file>
 ```
 
 The module will be mod2 or mod3 (future), and the checks will be performed based on what's expected for each.
