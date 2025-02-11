@@ -8,7 +8,7 @@ Creates a VPC, subnet, firewall rules, and a VM.
 ## Modify
 In provider.tf, change the two locations which say FILL-IN.  The first points to the json file that was downloaded when creating a service account.  The second is the project name.
 
-In main.tf, update the firewall resource where it says FILL-IN to match your GCP project name.
+In main.tf, update the firewall resource where it says FILL-IN to match your GCP project name. Or, you can simply delete that line and it will use the project name defined in provider.tf.
 
 ## To Run
 ```
