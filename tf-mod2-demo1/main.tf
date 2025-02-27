@@ -36,7 +36,6 @@ resource "google_compute_subnetwork" "tf-mod2-demo1-subnet1" {
 // Create Firewall rule - allow icmp, tcp:22 (ssh), and tcp:1234 (custom)
 //https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_firewall
 resource "google_compute_firewall" "tf-mod2-demo1-fwrule1" {
-  project = "orbital-linker-398719"
   name        = "tf-mod2-demo1-fwrule1"
   network     = "tf-mod2-demo1-network1"
   // need the network created before the firewall rule
